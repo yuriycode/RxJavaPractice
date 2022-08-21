@@ -1,7 +1,9 @@
-package com.yuriycode.rxjavapractice.data
+package com.yuriycode.rxjavapractice.data.api
 
+import com.yuriycode.rxjavapractice.model.RetroCrypto
+import io.reactivex.rxjava3.core.Observable
 import retrofit2.http.GET
-import java.util.*
+
 
 interface GetData {
 
